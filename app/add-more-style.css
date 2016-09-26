@@ -1,0 +1,25 @@
+h3{
+	color: red;
+}
+
+form{
+	position: absolute;
+	left: 450px;
+	top: 40px;
+}
+
+.form-group, .ads, .btn-block{
+	width: 250px;
+}
+
+.showads{
+	position: relative;
+	top: 180px;
+	left: 322px;
+}
+
+.ads{
+	position: relative;
+	top: 198px;
+	left: 322px;
+}

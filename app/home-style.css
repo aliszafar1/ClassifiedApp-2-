@@ -1,0 +1,23 @@
+form{
+	position: absolute;
+	left: 450px;
+	top: 40px;
+}
+
+h3{
+	color: red;
+}
+
+.form-group{
+	width: 250px;
+}
+
+button{
+	position: relative;
+	left: 200px;
+}
+
+p{
+	position: relative;
+	top: 10px;
+}

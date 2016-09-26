@@ -1,0 +1,17 @@
+<div class="container">
+	<nav>
+		<a class="btn btn-default" [routerLink]="['LoginForm']">Log out</a>
+		<a class="btn btn-default" [routerLink]="['AddMore']">Add More</a>
+	</nav>
+
+<h3>OLX where buyer meets seller</h3>
+	<ul>
+			<li *ngFor="#ad of ads">
+			{{ad.name}}<br>
+			{{ad.model}}<br>
+			{{ad.price}}
+			</li>
+	</ul>
+	
+	
+</div>

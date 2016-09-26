@@ -1,0 +1,9 @@
+.container nav{
+	position: relative;
+	right: -1000px;
+	top: 10px;
+}
+
+h3, li{
+	color: green;
+}

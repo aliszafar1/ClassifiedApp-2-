@@ -1,0 +1,21 @@
+<div class="container">
+<h3>Post your own Ad!</h3>
+	<form (ngSubmit)="addMore()">
+	<div class="form-group">
+		<input type="text" class="form-control" placeholder="Enter Name" #name>	
+	</div>
+	<div class="form-group">
+		<select class="form-control" #model>
+			<option selected>Select Model</option>
+			<option>Car</option>
+			<option>Motorcycle</option>
+			<option>Cycle</option>
+		</select>
+	</div>
+	<div class="form-group">
+		<input type="text" class="form-control" placeholder="Enter Price" #price>
+	</div>
+	<button class="btn btn-default btn-block">Add</button>
+
+</form>
+</div>
